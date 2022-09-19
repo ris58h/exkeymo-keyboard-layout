@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
@@ -20,9 +19,4 @@ android {
     }
     namespace 'ris58h.exkeymo_keyboard_layout'
 
-}
-
-dependencies {
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'androidx.core:core-ktx:1.9.0'
 }
