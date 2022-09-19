@@ -4,4 +4,8 @@
         android:name="keyboard_layout"
         android:keyboardLayout="@raw/keyboard_layout"
         android:label="@string/keyboard_layout_label" />
+    <keyboard-layout
+            android:name="keyboard_layout2"
+            android:keyboardLayout="@raw/keyboard_layout2"
+            android:label="@string/keyboard_layout2_label" />
 </keyboard-layouts>
