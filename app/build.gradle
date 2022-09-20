@@ -12,6 +12,17 @@ android {
         versionName "1.0"
     }
 
+    flavorDimensions "version"
+    productFlavors {
+        oneLayout {
+            dimension "version"
+        }
+        twoLayouts {
+            dimension "version"
+        }
+    }
+
+
     namespace 'ris58h.exkeymo_keyboard_layout'
 
     lintOptions {
