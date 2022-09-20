@@ -6,6 +6,7 @@ android {
     defaultConfig {
         applicationId "ris58h.exkeymo_keyboard_layout"
         minSdkVersion 16
+        // Since API level 30 an APK must be zipaligned and signed using Signature Scheme V2 or higher.
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
