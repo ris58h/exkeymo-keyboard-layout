@@ -1,15 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "ris58h.exkeymo_keyboard_layout"
         minSdkVersion 16
-        targetSdkVersion 33
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
 
     namespace 'ris58h.exkeymo_keyboard_layout'
+
+    lintOptions {
+        baseline file("lint-baseline.xml")
+    }
 }
